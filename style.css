@@ -14,3 +14,20 @@ body {
     min-height: 100vh;
     background: linear-gradient(#EEEEFF, #C8C7FF);
 }
+
+.chatbot-popup {
+    width: 420px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.chat-header{
+    display: flex;
+    align-items: center;
+    background: #5350C4;
+    padding: 15px 22px;
+    justify-content: space-between;
+}
