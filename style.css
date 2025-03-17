@@ -63,8 +63,16 @@ body {
     font-size: 1.9rem;
     margin-right: -10px;
     padding-top: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.2se;
 
+}
 
+.chat-header #close-chatbot:hover{
+    background: #3d39ac;
+    
 }
 
 
