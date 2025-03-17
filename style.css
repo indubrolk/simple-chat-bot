@@ -31,3 +31,38 @@ body {
     padding: 15px 22px;
     justify-content: space-between;
 }
+
+.chat-header .header-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.chat-info .chatbot-logo{
+    height: 35px;
+    width: 45px;
+    padding: 6px;
+    fill: #5350C4;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 50%;
+
+}
+
+.header-info .logo-text{
+    color: #fff;
+    font-size: 1.31rem;
+    font-weight: 600;
+}
+
+.chat-header #close-chatbot{
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 1.9rem;
+    margin-right: -10px;
+}
+
+
+
