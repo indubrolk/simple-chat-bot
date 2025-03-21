@@ -66,7 +66,7 @@ body {
     cursor: pointer;
     border-radius: 50%;
     background: #fff;
-    transition: 0.2se;
+    transition: 0.2s;
 
 }
 
@@ -91,6 +91,8 @@ body {
     align-items: center;
 
 }
+
+.chat
 
 .chat-footer {
     position: absolute;
