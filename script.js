@@ -1,5 +1,6 @@
 const messageInput = document.querySelector(".message-input");
 const chatBody = document.querySelector(".message-input");
+const sendMessage = document.querySelector("#send-message");
 
 const createMessageElement = (content, classes) => {
     const div = document.createElement("div");
@@ -22,3 +23,5 @@ messageInput.addEventListener("keydown", (e) => {
        handleOutgoingMessage(userMessage);
    }
 });
+
+sendMessageButton.addEventListener("click", (e) => handleOutgoingMessage())
